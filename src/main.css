@@ -1,0 +1,122 @@
+
+/* 文件也是模块 */
+/* 让文件转化为模块 */
+@font-face {font-family: "iconfont";
+  src: url('./iconfont/iconfont.eot?t=1597228955449'); /* IE9 */
+  src: url('./iconfont/iconfont.eot?t=1597228955449#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2'),
+  url('./iconfont/iconfont.woff?t=1597228955449') format('woff'),
+  url('./iconfont/iconfont.ttf?t=1597228955449') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('./iconfont/iconfont.svg?t=1597228955449#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-zantingtingzhi:before {
+  content: "\e63c";
+}
+
+.icon-bofang:before {
+  content: "\e622";
+}
+
+.icon-bofang1:before {
+  content: "\e607";
+}
+
+.icon-zanting1:before {
+  content: "\e600";
+}
+
+.icon-quanping:before {
+  content: "\e789";
+}
+
+.icon-ziyuan:before {
+  content: "\e619";
+}
+
+.icon-yinliang:before {
+  content: "\e62d";
+}
+
+.icon-guanbi:before {
+  content: "\e641";
+}
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+img {
+  display: block;
+}
+body {
+  background: #f5f5f5;
+}
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#list {
+  width: 1226px;
+  margin: 20px auto;
+}
+#list .list-wrap{
+  width: 1240px;
+}
+#list  .list-wrap li{
+  float: left;
+  margin-right: 14px;
+  width: 296px;
+  height: auto;
+  cursor: pointer;
+  background: #ffffff;
+  transition: all .2s linear;
+}
+#list  .list-wrap li:hover i {
+  color: #ff2700;
+}
+#list  .list-wrap li:hover {
+  box-shadow: 0 15px 30px rgba(0,0,0,.1);
+    -webkit-transform: translate3d(0,-2px,0);
+    transform: translate3d(0,-2px,0);
+}
+
+#list .list-wrap div{
+  position: relative;
+}
+#list .list-wrap img{
+  width: 100%;
+  height: 100%;
+}
+#list .list-wrap i {
+  position: absolute;
+  bottom: 10px;
+  left: 19px;
+  color: #ffffff;
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+#list .list-wrap h3 {
+  font-size: 12px;
+  text-align: center;
+  padding: 30px;
+}
